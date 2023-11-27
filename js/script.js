@@ -1,3 +1,4 @@
+/*دکمه بالا*/
 $(document).ready(function () {
   $(document).on("scroll", function () {
     let st = $(this).scrollTop();
@@ -17,7 +18,7 @@ $(document).ready(function () {
     );
   });
 });
-
+/*جستجوی کامپیوتر*/
 let search1 = document.getElementById("search1");
 let search3 = document.getElementById("search3");
 let close = document.getElementById("close");
@@ -27,6 +28,8 @@ search3.addEventListener("click", function () {
 close.addEventListener("click", function () {
   search1.style.display = "none";
 });
+
+/*منوی همبرگری*/
 
 let btn = document.getElementById("ham1");
 let close1 = document.getElementById("close1");
@@ -85,6 +88,8 @@ open6.addEventListener("click", function () {
   list7.classList.toggle("opa");
   menha5.classList.toggle("hide");
 });
+/*جستجوی موبایل*/
+
 let search4 = document.getElementById("search4");
 let search6 = document.getElementById("search6");
 let clos = document.getElementById("clos");
